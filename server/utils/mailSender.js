@@ -22,7 +22,7 @@ const mailSender = async(fromEmail, email, title, body) => {
         }
         else {
             info = await transporter.sendMail({
-                from: "StudyNotion by Jahnvi Chhabra",
+                from: "StudyNotion by Chirag Kumar",
                 to: `${email}`,
                 subject: `${title}`,
                 html: `${body}`,
